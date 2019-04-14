@@ -1,0 +1,8 @@
+<view >
+    <!-- quote -->
+    <import src="./temp/temp"/>
+    <!-- import -->
+    <template is='test'></template>
+    <!-- include -->
+    <include src="./temp/temp"/>
+</view>

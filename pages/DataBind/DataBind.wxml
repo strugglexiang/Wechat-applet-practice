@@ -1,0 +1,55 @@
+<view id='BindData'>
+    <!-- 内容 -->
+    <view >
+        {{message}}
+    </view>
+    <!-- 组件属性 -->
+    <view class='item-{{count}}'>
+        {{count}}
+    </view>
+    <!-- 控制属性 -->
+    <view >
+        <checkbox checked="{{check}}" />
+    </view>
+    <!-- 运算 -->
+    <view >
+        <!-- 三元运算 -->
+        <text >
+            {{ count === 0 ? 'you' : 'I' }}
+        </text>
+        <!-- 算数运算 -->
+        <text>
+            {{ count + 5 }}
+        </text>
+        <!-- 逻辑判断 -->
+        <text >
+            {{ count > 0 }}
+        </text>
+        <!-- 字符串运算 -->
+        <text >
+            {{ 'hello' + count }}
+        </text>
+        <!-- 数据路径运算 -->
+        <text >
+            {{ list[0] }}
+        </text>
+    </view>
+    <!-- 组合 -->
+    <view >
+        <!-- 组合成数组 -->
+        <!-- <text wx:for="{{[message, 'apple', 'orange', count]}}" wx:for-item='item' wx:key='index'>
+            {{ item }}
+        </text> -->
+        <!-- 组合成对象 -->
+        <template name='test'>
+            <block>
+                name: {{name}}
+            </block>
+            <block>
+                age: {{age}}
+            </block>
+        </template>
+
+        <template is='test' data="{{name, age}}"></template>
+    </view>
+</view>

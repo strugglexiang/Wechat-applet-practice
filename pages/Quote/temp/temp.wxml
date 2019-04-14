@@ -1,0 +1,8 @@
+<view >
+    <!-- import -->
+    <template name='test'>
+        import
+    </template>
+    <!-- include -->
+    <text >include</text>
+</view>

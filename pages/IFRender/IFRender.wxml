@@ -1,0 +1,5 @@
+<view >
+    <text wx:if='{{ count === 1 }}'>1</text>
+    <text wx:elif='{{ count === 2 }}'>2</text>
+    <text wx:else>other</text>
+</view>

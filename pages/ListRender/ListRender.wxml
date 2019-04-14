@@ -1,0 +1,5 @@
+<view >
+    <text wx:for='{{ list }}' wx:key='index'>
+        {{ item }}
+    </text>
+</view>

@@ -1,0 +1,15 @@
+#BindData view {
+    border-bottom: 1px solid saddlebrown;
+}
+
+.item-0 {
+    color: red;
+}
+
+.item-1 {
+    color: yellowgreen;
+}
+
+.item-2 {
+    color: purple;
+}

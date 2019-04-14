@@ -1,0 +1,9 @@
+{
+    "pages": [
+        "pages/Quote/Quote",
+        "pages/IFRender/IFRender",
+        "pages/ListRender/ListRender",
+        "pages/DataBind/DataBind",
+        "pages/HelloWorld/HelloWorld"
+    ]
+}
