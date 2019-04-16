@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/wxss/show",
         "pages/wxml/Quote/Quote",
         "pages/wxml/IFRender/IFRender",
         "pages/wxml/ListRender/ListRender",

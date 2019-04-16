@@ -1,3 +1,6 @@
+# 参考
+[官网](https://developers.weixin.qq.com/miniprogram/dev/reference/wxml/index.html)
+
 # 前言
 wxml: `.wxml`后缀文件，类似`html`，决定页面的显示结构。   
 
