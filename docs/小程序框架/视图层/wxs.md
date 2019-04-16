@@ -59,10 +59,6 @@ module.exports = {
 </view>
 ```
 
-3. wxml结构中的结果
-```
-```
-
 - - -
 **wxs标签内书写脚本**
 某`wxml`文件内
