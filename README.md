@@ -60,7 +60,7 @@
     </text>
     <!-- 字符串运算 -->
     <text>
-        {{ 'hello' + 'count' }}
+        {{ 'hello' + count }}
     </text>
     <!-- 逻辑判断 -->
     <text>
@@ -113,8 +113,6 @@
 ### 条件渲染
 是否渲染某组件
 ```
-<checkbox check='{{check}}'>
-
 <view >
     <text wx:if='{{ count === 1 }}'>1</text>
     <text wx:elif='{{ count === 2 }}'>2</text>

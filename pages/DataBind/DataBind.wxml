@@ -9,7 +9,11 @@
     </view>
     <!-- 控制属性 -->
     <view >
-        <checkbox checked="{{check}}" />
+        <checkbox wx:if="{{showCheck}}"  />
+    </view>
+    <!-- 关键字 -->
+    <view >
+        <checkbox checked='{{check}}' />
     </view>
     <!-- 运算 -->
     <view >
@@ -37,9 +41,9 @@
     <!-- 组合 -->
     <view >
         <!-- 组合成数组 -->
-        <!-- <text wx:for="{{[message, 'apple', 'orange', count]}}" wx:for-item='item' wx:key='index'>
+        <text wx:for="{{[message, 'apple', 'orange', count]}}" wx:for-item='item' wx:key='index'>
             {{ item }}
-        </text> -->
+        </text>
         <!-- 组合成对象 -->
         <template name='test'>
             <block>
