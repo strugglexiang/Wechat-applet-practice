@@ -1,0 +1,13 @@
+<wxs src="./wxs/b.wxs" module="use" />
+<view >
+    <text>{{ use.count }}</text>
+    <text>{{ use.message }}</text>
+</view>
+<wxs module="test">
+    module.exports = {
+        value: 'inner label',
+    }
+</wxs>
+<view >
+    {{ test.value }}
+</view>

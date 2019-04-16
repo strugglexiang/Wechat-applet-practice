@@ -1,0 +1,8 @@
+var modlueA = require('./a.wxs')
+
+var message =  'message from b.wxs'
+
+module.exports = {
+    count: modlueA.count,
+    message: message,
+}
