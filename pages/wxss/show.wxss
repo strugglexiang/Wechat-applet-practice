@@ -1,5 +1,5 @@
 @import './test.wxss';
 .box {
     color: greenyellow;
-    /* background-color: black; */
+    background-color: black;
 }
