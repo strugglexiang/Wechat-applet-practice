@@ -43,7 +43,7 @@ var getName = function() {
 }
 
 module.exports = {
-    getName,
+    getName: getName,
 }
 
 ```

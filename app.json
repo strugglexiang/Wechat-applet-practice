@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/LifiCycle/LifiCycle",
         "pages/wxsUse/wxsUse",
         "pages/wxss/show",
         "pages/wxml/Quote/Quote",
