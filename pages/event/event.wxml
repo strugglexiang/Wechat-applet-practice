@@ -1,0 +1,17 @@
+<wxs src="./event.wxs" module="wxs"/>
+<button bind:tap='tap'>
+    jstap
+</button>
+<button bind:tap="{{wxs.test}}">
+    wsxtap
+</button>
+
+<view id='a' class='a' bind:tap='bindA' capture-bind:tap='capA'>
+    a
+    <view id='b' class='b' bind:tap='bindB' capture-bind:tap='capB'>
+    b
+        <view id='c' class='c' bind:tap='bindC' capture-bind:tap='capC'>
+        c
+        </view>
+    </view>
+</view>

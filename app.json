@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/event/event",
         "pages/LifiCycle/LifiCycle",
         "pages/wxsUse/wxsUse",
         "pages/wxss/show",

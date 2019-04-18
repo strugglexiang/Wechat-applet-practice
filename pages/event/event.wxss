@@ -1,0 +1,14 @@
+.a {
+    border: 1px solid black;
+    height: 120px;
+}
+
+.b {
+    border: 1px solid red;
+    height: 80px;
+}
+
+.c {
+    border: 1px solid green;
+    height: 40px;
+}
