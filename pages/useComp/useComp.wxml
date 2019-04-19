@@ -1,0 +1,8 @@
+
+<view >
+    <test-c>
+        <text>default</text>
+        <text slot='test1'>test1</text>
+        <text slot='test'>test</text>
+    </test-c>
+</view>

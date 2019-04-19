@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/useComp/useComp",
         "pages/event/event",
         "pages/LifiCycle/LifiCycle",
         "pages/wxsUse/wxsUse",

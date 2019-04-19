@@ -1,0 +1,7 @@
+<view class='test-component'>
+    <text class="a" >组件测试</text>
+    <slot></slot>
+    <slot name='test1'></slot>
+    <slot name='test'>
+    </slot>    
+</view>
